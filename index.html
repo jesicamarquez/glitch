@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glitch // We as women are disruptive to the norm.</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- LAUNCH FULLSCREEN -->
+    <div id="fullScreen" class="callout clearfix">
+      <a onclick="launchFullScreen(document.documentElement);" class="success button right">glitch</a>
+    </div>
+    <!-- SNAP PHOTOS -->  
+    <div class="row medium-12 columns">
+      <video id="video" width="100%" autoplay></video>
+      <div class="row medium-12 columns">
+        <center>
+          <button id="snap" class="button">Snap Photo</button>
+        </center>
+      </div>
+      <div class="row medium-12 columns">
+        <center>
+          <canvas width="640" height="480" id="c" class="polaroid"></canvas>
+        </center>
+      </div>
+    </div>
+    <!-- WEBGL PHOTO MANIPULATION -->
+    <div class="row medium-8 columns">
+      <div id="widget" class="polaroid">
+          <canvas id="canvas"></canvas>
+      </div>
+    </div>
+
+    <div class="clearfix"><br /></div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/fabric.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

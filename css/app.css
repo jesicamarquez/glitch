@@ -1,0 +1,21 @@
+body 
+{
+    background: #fafafa;
+    height: 100%;
+}
+.polaroid
+{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #edeeee;
+    border-radius: 3px;
+}
+#widget 
+{
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#c{
+    display: none;
+}
